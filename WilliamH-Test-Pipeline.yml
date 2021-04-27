@@ -1,0 +1,7 @@
+steps:
+- task: FusionSafeVelocity.deployment-health-checker-gate-ppe-v2.custom-build-release-task.DeploymentHealthCheckerForUTPSyntheticsPPE-v2@0
+  displayName: 'DeploymentHealthCheckerForUTPSyntheticsPPE-v2'
+  inputs:
+        azureSubscription: 'MSFT-SafeVelocity-PPE (fc45c2d1-ab9c-4b6b-bd2b-e015927da9c2)'
+        subscriptionId: 'fc45c2d1-ab9c-4b6b-bd2b-e015927da9c2'
+        connectedServiceName: 'DHC Service Connection - PPE - TEST'
