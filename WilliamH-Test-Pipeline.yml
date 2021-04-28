@@ -5,4 +5,4 @@ jobs:
   - task: DeploymentHealthCheckerForUTPSyntheticsPPE-v2@0
     displayName: 'DeploymentHealthCheckerForUTPSyntheticsPPE-v2'
     inputs:
-      azureSubscription: '266e823a-efdb-49c9-a251-e0932423cd91'
+      azureSubscription: 'f085edb3-dfc8-49ec-b9eb-d2527f659bfe'
