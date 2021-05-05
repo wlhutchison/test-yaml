@@ -2,7 +2,7 @@ jobs:
 - job: serverjob
   pool: server
   steps:
-  - task: DeploymentHealthCheckerForUTPSyntheticsPPE-v2@0
-    displayName: 'DeploymentHealthCheckerForUTPSyntheticsPPE-v2'
+  - task: DeploymentHealthCheckerForUTPSyntheticsPPE@0
+    displayName: 'DeploymentHealthCheckerForUTPSyntheticsPPE'
     inputs:
-      azureSubscription: '5d77b85b-6644-48d5-b67e-c513932c3b6c'
+      azureSubscription: 'DHC Azure Service Bus - PPE - WH'
