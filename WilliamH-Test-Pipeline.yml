@@ -6,4 +6,4 @@ jobs:
   steps:
   - task: DeploymentHealthCheckerForUTPSyntheticsPPE@0
     inputs:
-        connectedServiceDHC: 'DHC-PPE-OneITVSO-Staging'
+        connectedServiceDHC: 'DHC-PPE'
