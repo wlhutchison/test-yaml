@@ -5,4 +5,4 @@ jobs:
   - task: DeploymentHealthCheckerForUTPSyntheticsPPE@0
     displayName: 'DeploymentHealthCheckerForUTPSyntheticsPPE'
     inputs:
-      azureSubscription: 'DHC Azure Service Bus - PPE - WH'
+      azureSubscription: 'DHC-PPE-OneITVSO'
