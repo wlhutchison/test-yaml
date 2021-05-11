@@ -1,9 +1,9 @@
+# Runs Deployment health checker for UTP Synthetics in the PPE environment
+
 jobs:
 - job: serverjob
   pool: server
   steps:
   - task: DeploymentHealthCheckerForUTPSyntheticsPPE@0
-    displayName: 'DeploymentHealthCheckerForUTPSyntheticsPPE'
     inputs:
-      azureSubscription: 'DHC Azure Service Bus - PPE - WH'
-      connectedServiceDHC: 'DHC-PPE'
+        connectedServiceDHC: 'DHC-PPE-OneITVSO'
